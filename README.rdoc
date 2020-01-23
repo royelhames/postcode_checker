@@ -1,25 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
+This README documents steps necessary to get the
 application up and running.
 
-Things you may want to cover:
+This app running on rails version 4.2.11.1
+There is no database , to deploy just download the app and bundle install
+Fire up your rails server on porst 3000 and visit http://localhost:3000/home/index
+Enter a postcode and click return to check if such password is servable by SH24 
 
-* Ruby version
+To run unit tests :
+/usr/local/bin/ruby /usr/local/bin/rake test test/models/postcode_test.rb
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 * ...
 
