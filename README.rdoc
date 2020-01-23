@@ -4,8 +4,12 @@ This README documents steps necessary to get the
 application up and running.
 
 This app running on rails version 4.2.11.1
-There is no database , to deploy just download the app and bundle install
-Fire up your rails server on porst 3000 and visit http://localhost:3000/home/index
+There is no database , to deploy:
+- download the app 
+- bundle install
+- Fire up your rails server on port 3000 
+- browse to http://localhost:3000
+
 Enter a postcode and click return to check if such postcode is servable by SH24 
 
 To run unit tests :
